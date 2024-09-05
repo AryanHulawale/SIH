@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 110px;
+    position: sticky;
+}
+
+ul {
+    list-style: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+ul li img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-size: contain;
+}
+
+nav ul:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: "Geologica", sans-serif;
+}
+
+nav ul:first-child li {
+    font-family: "Gugi", sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #D54F2A;
+}
+
+nav ul:last-child li a {
+    font-size: 28px;
+    line-height: 5px;
+    font-weight: 400;
+    color: #939393;
+    text-decoration: none;
+}
+
+.main {
+    height: 110vh;
+    width: 100vw;
+    background-color: #FFEFEACC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right .stamp-info h1 {
+    margin-top: 10px;
+    font-family: "Graduate", serif;
+    height: 165px;
+    width: 645px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54.67px;
+}
+
+.right .stamp-info h1 span:first-child {
+    color: #D54F2A;
+}
+
+.right .stamp-info h1 span:nth-child(2) {
+    color: #1B8800;
+}
+
+.right .stamp-info h1 span:last-child {
+    color: #00598B;
+}
+
+.right button {
+    font-family: "Hammersmith One", sans-serif;
+    margin-top: 10px;
+    outline: 0;
+    width: 248px;
+    height: 59px;
+    color: white;
+    border-radius: 65px;
+    background-color: #D54F2A;
+    border: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.popular {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+}
+
+.divider {
+    margin-top: 10px;
+    width: 8px;
+    height: 350px;
+    background-color: #D54F2A;
+    border-radius: 10px;
+}
+
+.popular {
+    margin-top: 30px;
+}
+
+.popular h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: #D54F2A;
+    margin-bottom: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: #00598B;
+    width: 220px;
+    height: 315px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(68, 68, 68, 0.59);
+    background-color: #fff;
+    
+}
+
+.img {
+    height: 181px;
+    background-color: #8680AC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 155px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Gugi", sans-serif;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Gugi", sans-serif;
+    color: green;
+}
+
+.para {
+    font-family: "Gugi", sans-serif;
+    width: 130px;
+    height: 22px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photo img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.name {
+    font-family: "Gugi", sans-serif;
+    font-size: 15px;
+}
+
+.cart svg {
+    width: 35px;
+    margin-bottom: 5px;
+}
+
+#c1 {
+    z-index: 10;
+    position: relative;
+    right: 0%;
+}
+
+#c2 {
+    z-index: 9;
+    position: relative;
+    right: 10%;
+}
+
+#c3 {
+    z-index: 8;
+    position: relative;
+    right: 20%;
+}
+
+#c4 {
+    z-index: 7;
+    position: relative;
+    right: 30%;
+}
+
+#c2 .img {
+    
+    background-color: #FF4A7B99;
+}
+
+#c3 .img {
+    background-color: #69AB8D99;
+}
+
+#c4 .img {
+    background-color: #478DA799;
+}
